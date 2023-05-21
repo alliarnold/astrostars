@@ -2,7 +2,7 @@
 Awareness Project
 Submitted for DATA73200
 
-[Click here](https://alliarnold.github.io/astrostars/) to view the public Github page. 
+[Click here](https://alliarnold.github.io/astrostars/index.html) to view the public Github page. 
 
 [Click here](https://github.com/alliarnold/astrostars/) to view my code repo. 
 
