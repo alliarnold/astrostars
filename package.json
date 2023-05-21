@@ -1,7 +1,7 @@
 {
   "name": "AstroStars",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "https://github.com/alliarnold/astrostars.git",
   "author": "Alli <89819872+alliarnold@users.noreply.github.com>",
   "license": "MIT",
