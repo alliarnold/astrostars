@@ -1,19 +1,25 @@
 {
   "name": "AstroStars",
   "version": "1.0.0",
-  "main": "main.js",
   "repository": "https://github.com/alliarnold/astrostars.git",
   "author": "Alli <89819872+alliarnold@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "cssnano": "^6.0.1",
     "d3": "^7.8.4",
-    "parcel": "^2.8.3"
-  }, "scripts": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.2.15"
+  },
+  "scripts": {
     "start": "parcel ./index.html",
     "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
+    "build-dev": "parcel build ./index.html --no-optimize --public-url ./",
     "prebuild": "shx rm -rf dist/*",
-    "build": "parcel build ./src/index.html --public-url ./",
+    "build": "parcel build ./index.html --public-url ./",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "dependencies": {
+    "shx": "^0.3.4",
+    "d3": "^7.8.4"
   }
 }

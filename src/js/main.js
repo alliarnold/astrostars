@@ -1,5 +1,5 @@
-import { circles } from './circles.js';
-import { heatmap0 } from './heatmap.js';
+//import { circles0 } from './circles.js';
+//import { heatmap0 } from './heatmap.js';
 
-circles();
-heatmap0();
+//circles0();
+//heatmap0();
