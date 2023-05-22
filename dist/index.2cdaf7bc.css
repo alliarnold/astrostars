@@ -1,0 +1,73 @@
+body > div {
+  margin: 5%;
+  font-family: Karla, sans-serif;
+  font-weight: 100;
+}
+
+header {
+  grid-template-columns: 65% 35%;
+  margin-bottom: 0%;
+  display: grid;
+}
+
+h2 {
+  color: #70238c;
+  font-family: Sacramento, cursive;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+a {
+  color: purple;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.section {
+  display: grid;
+}
+
+.section#one {
+  grid-column-gap: 15px;
+  grid-template-columns: 20% 80%;
+}
+
+.section#one > .text {
+  color: #fff;
+  grid-area: 1 / 1 / span 2 / 2;
+  margin-top: 50px;
+  margin-left: -30px;
+}
+
+.section#one > .graph {
+  grid-column: 2 / 2;
+}
+
+.section#two {
+  grid-column-gap: 10px;
+  grid-template-columns: 20% 80%;
+}
+
+.section#two > .text {
+  color: #fff;
+  grid-area: 1 / 1 / span 2 / 2;
+  margin-top: 50px;
+  margin-left: -30px;
+}
+
+.section#two > .graph {
+  grid-column: 2 / 2;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+}
+
+.square {
+  height: 24px;
+  width: 30px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
