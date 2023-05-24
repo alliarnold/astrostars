@@ -1,5 +1,3 @@
-import * as d3 from "https://d3js.org/d3.v7.min.js";
-
 const height = window.innerHeight * .8,
 width = height - 10;
 
