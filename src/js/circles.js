@@ -1,4 +1,4 @@
-import * as d3 from "d3";
+//import * as d3 from "d3";
 
 const height = window.innerHeight * .8,
 width = height - 10;
