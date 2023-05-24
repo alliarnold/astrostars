@@ -1,4 +1,4 @@
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+import * as d3 from "url:https://d3js.org/d3.v7.min.js";
 
 const height = window.innerHeight * .8,
 width = height - 10;

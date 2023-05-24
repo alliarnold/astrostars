@@ -1,4 +1,4 @@
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+import * as d3 from "url:https://d3js.org/d3.v7.min.js";
 import heat from 'url:../../data/heat.csv';
 
 function renderData(dataElements) {
